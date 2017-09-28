@@ -3,5 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Printf("%d %b", 18, 18)
+	for i := 0; i < 10; i++ { // i++ just means add 1 to i
+		fmt.Printf("%d %b", i, i)
+	}
+
 }
